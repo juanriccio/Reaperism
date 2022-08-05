@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan R's Reaperism" commit="fb0d839d0bba27df85a71ac51094ee81bace5100">
+<index version="1" name="Juan R's Reaperism" commit="40b4a73fe3c20232c13f87a20f8a1e9c317cd820">
   <category name="Example">
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
@@ -18,6 +18,18 @@ Markdown
       </metadata>
       <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
         <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="MIDI">
+    <reapack name="Midi-Fret-and-pick.jsfx" type="effect" desc="Juan_R MIDI Fret and pick">
+      <version name="1.04" author="Juan_R" time="2022-08-05T18:27:16Z">
+        <changelog><![CDATA[1.00  initial release
+1.01  clean code, add idle option: mixed recycle+octave
+1.02  improved "about" docs
+1.03  added options to make fretting notes play immediately
+1.04  renamed adding Juan_R]]></changelog>
+        <source>https://github.com/juanriccio/Reaperism/raw/40b4a73fe3c20232c13f87a20f8a1e9c317cd820/MIDI/Midi-Fret-and-pick.jsfx</source>
       </version>
     </reapack>
   </category>
