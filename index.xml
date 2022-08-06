@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="Juan R's Reaperism" commit="acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f">
   <category name="MIDI">
+    <!---
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
@@ -20,6 +21,7 @@ Markdown
         <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
       </version>
     </reapack>
+--->
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <version name="0.04" author="Juan_R" time="2022-08-06T03:42:33Z">
         <changelog><![CDATA[0.01a  initial release
