@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="aecfdc451482f8dbf179870135fc9f7df5e78475">
+<index version="1" name="Juan_R's Reaperism" commit="59b65ba2b14b2fe8257ef25e6e67de3fce399ab2">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <version name="0.04" author="Juan_R" time="2022-08-06T03:42:33Z">
@@ -55,7 +55,7 @@
         <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-mirror-invert-keyboard.jsfx</source>
       </version>
     </reapack>
-    <reapack name="MIDI-round-robin-midi_channelize.jsfx" type="effect" desc="Juan_R&#9;MIDI Round Robin Channelize&#9;Notes">
+    <reapack name="MIDI-round-robin-midi_channelize.jsfx" type="effect" desc="Juan_R MIDI Round Robin Channelize Notes">
       <version name="1.02" author="Juan_R" time="2022-08-06T03:42:33Z">
         <changelog><![CDATA[1.0	initial	release
 1.01	additional check for duplicate incoming	notes (thanks ashcat_lt)
