@@ -1,83 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan R's Reaperism" commit="acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f">
-  <category name="MIDI"/>
+<index version="1" name="Juan_R's Reaperism" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+  <category name="Example">
+    <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This is an example of a package file. It installs itself as a ReaScript that does nothing but show "Hello World!" in REAPER's scripting console.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Packages may also include additional files specified using the @provides tag.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This text is the documentation shown when using ReaPack's "About this package" feature. {\field{\*\fldinst{HYPERLINK "https://commonmark.org/"}}{\fldrslt{\ul
+Markdown
+}}}
+ {\i formatting} is supported.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
+        <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
+      </version>
+    </reapack>
+  </category>
   <metadata>
     <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Juan_R's Reaperism\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A repository of scripts, effects and other bits for Reaper, the DAW.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
+reapack-index
+}}}
+ running from GitHub Actions.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
+index.xml
+}}}
+ when using this template. This will be the name shown in ReaPack.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
+README.md
+}}}
+). This will be the text shown when using ReaPack's "About this repository" feature.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
+Packaging Documentation
+}}}
+ on reapack-index's wiki.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
+https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
+}}}
+.\par}
 }
 ]]></description>
   </metadata>
-     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
-      <version name="0.04" author="Juan_R" time="2022-08-06T03:42:33Z">
-        <changelog><![CDATA[0.01a  initial release
-0.02a  it works but still needs some knowing it.
-0.03a  added usage notes in the about: section
-0.04   renamed adding Juan_R]]></changelog>
-        <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-floating-split.jsfx</source>
-      </version>
-    </reapack>
-    <reapack name="MIDI-jrk_juan_r-stepped-pitchbend-by-semitones.jsfx" type="effect" desc="JRK/Juan_R bend by semitones">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Bend by semitones (JRK/Juan_R)\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Based on JRK's code, modified by Juan_R Quantize the pitch bend wheel to work in semitone steps The Range slider should reflect the synth's Pitch Bend Range parameter, unless you know what you're doing (or don't, but just want some fun).\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.02" time="2022-08-06T03:42:33Z">
-        <changelog><![CDATA[1.00  initial release
-1.01  removed unneeded channel variable
-1.02  added about: documentation]]></changelog>
-        <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-jrk_juan_r-stepped-pitchbend-by-semitones.jsfx</source>
-      </version>
-    </reapack>
-    <reapack name="MIDI-mirror-invert-keyboard.jsfx" type="effect" desc="Juan_R Keyboard Mirror/Invert">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Keyboard Mirror/Invert (Juan_R)\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Mirror the keyboard around a user-selectable pivot point (e.g., C4) so that playing e.g. B3 yields C#4, playing E4 yields G#3 etc. This trick was made popular by Joe Zawinul.\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.01" author="Juan_R" time="2022-08-06T03:42:33Z">
-        <changelog><![CDATA[1.00  initial release
-1.01   renamed adding Juan_R]]></changelog>
-        <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-mirror-invert-keyboard.jsfx</source>
-      </version>
-    </reapack>
-    <reapack name="MIDI-round-robin-midi_channelize.jsfx" type="effect" desc="Juan_R&#9;MIDI Round Robin Channelize&#9;Notes">
-      <version name="1.02" author="Juan_R" time="2022-08-06T03:42:33Z">
-        <changelog><![CDATA[1.0	initial	release
-1.01	additional check for duplicate incoming	notes (thanks ashcat_lt)
-1.02	some code refactoring]]></changelog>
-        <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-round-robin-midi_channelize.jsfx</source>
-      </version>
-    </reapack>
-    <reapack name="MIDI-round-robin-midi_transpose.jsfx" type="effect" desc="Juan_R MIDI Round Robin Transpose Notes">
-      <version name="1.01" author="Juan_R" time="2022-08-06T03:42:33Z">
-        <changelog><![CDATA[1.0   initial release
-1.01  typos and cosmetics: code and comments, renamed adding Juan_R]]></changelog>
-        <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-round-robin-midi_transpose.jsfx</source>
-      </version>
-    </reapack>
-    <reapack name="Midi-Fret-and-pick.jsfx" type="effect" desc="Juan_R MIDI Fret and pick">
-      <version name="1.04" author="Juan_R" time="2022-08-05T18:27:16Z">
-        <changelog><![CDATA[1.00  initial release
-1.01  clean code, add idle option: mixed recycle+octave
-1.02  improved "about" docs
-1.03  added options to make fretting notes play immediately
-1.04  renamed adding Juan_R]]></changelog>
-        <source>https://github.com/juanriccio/Reaperism/raw/40b4a73fe3c20232c13f87a20f8a1e9c317cd820/MIDI/Midi-Fret-and-pick.jsfx</source>
-      </version>
-    </reapack>
-  </categpry>
-  
 </index>
