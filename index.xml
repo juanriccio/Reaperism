@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="13835f3cda3d48a1a7dd57650445a4e2f0e0f5c0">
+<index version="1" name="Juan_R's Reaperism" commit="791629c7fd8dddd38df290c0cbd2d82be5a5d409">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -14,6 +14,8 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 Hoping to improve it. More sophisticated heuristics anyone? The plug's collecting some data that isn't used yet.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 I'm submitting this as the snapshot of a working version: Something to get back to if experiments go astray. Todo - Manage one hand left alone corner case more gracefully.\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 Presets would be helpful. Switching presets = change to a slightly different FA. Some automated switching? Expose switching parameters?\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Suggestions, ideas and input welcome on the dedicated thread in Reaper Forums\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 https://forum.cockos.com/showthread.php?t=266570\par}
 }
 ]]></description>
       </metadata>
@@ -23,6 +25,14 @@
 0.03a  added usage notes in the about: section
 0.04   renamed adding Juan_R]]></changelog>
         <source>https://github.com/juanriccio/Reaperism/raw/8e4fd5835f07b9738860ff8eb2e30d30983a72e6/MIDI/MIDI-floating-split.jsfx</source>
+      </version>
+      <version name="0.05a" author="Juan_R" time="2022-08-08T18:17:41Z">
+        <changelog><![CDATA[0.01a  initial release
+0.02a  it works but still needs some knowing it.
+0.03a  added usage notes in the about: section
+0.04a  renamed adding Juan_R
+0.05a  more "about:" docs, link to thread for discussion]]></changelog>
+        <source>https://github.com/juanriccio/Reaperism/raw/791629c7fd8dddd38df290c0cbd2d82be5a5d409/MIDI/MIDI-floating-split.jsfx</source>
       </version>
     </reapack>
     <reapack name="MIDI-Fret-and-pick.jsfx" type="effect" desc="Juan_R MIDI Fret and Pick">
