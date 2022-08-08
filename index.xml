@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="8e4fd5835f07b9738860ff8eb2e30d30983a72e6">
+<index version="1" name="Juan_R's Reaperism" commit="a7c36f4175950de566cf6fe8cf6b1b5f6d681056">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 MIDI Floating Split (Juan_R)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Move the splitpoint along, tracking both hands.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Usage: Insert MIDI Floating Split on {\i source} track. Create two {\i receiving} tracks: one for the left hand, one for the right. Insert your favorite VSTis on the receiving tracks. Set up two MIDI sends from {\i source}: send LH-channel to the "Left Hand" receiving track, send RH-channel to "Right Hand" receiving track.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This is alpha. No hurry to actually see it committed before it goes out of alpha.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Hoping to improve it. More sophisticated heuristics anyone? The plug's collecting some data that isn't used yet.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 I'm submitting this as the snapshot of a working version: Something to get back to if experiments go astray. Todo - Manage one hand left alone corner case more gracefully.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Presets would be helpful. Switching presets = change to a slightly different FA. Some automated switching? Expose switching parameters?\par}
+}
+]]></description>
+      </metadata>
       <version name="0.04" author="Juan_R" time="2022-08-08T15:08:45Z">
         <changelog><![CDATA[0.01a  initial release
 0.02a  it works but still needs some knowing it.
@@ -11,6 +26,18 @@
       </version>
     </reapack>
     <reapack name="MIDI-Fret-and-pick.jsfx" type="effect" desc="Juan_R MIDI Fret and pick">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 MIDI Fret and pick (Juan_R)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Create two ranges on the keyboard: The fretting range and the picking range. Keys in the fretting range produce no note by themselves. Keys in the picking range trigger the fretting notes, one by one, in their respective low-high order. Triggering may happen for all picking keys, only white keys, or only black keys. Keys in the picking range that would go beyond the highest fretted note ("idle"): option to discard, recycle through the same fretted notes, recycle at ascending octaves, or mixed recycle+octaves.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This plugin is left-right hand agnostic: picking and fretting range can be on either side, and even overlap, although in this case the results might not make too much sense.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The fretting range can be arbitrarily transposed, so that any range of notes can be reached, no matter where the range actually is on the keyboard.\par}
+}
+]]></description>
+      </metadata>
       <version name="1.04" author="Juan_R" time="2022-08-08T15:08:45Z">
         <changelog><![CDATA[1.00  initial release
 1.01  clean code, add idle option: mixed recycle+octave
@@ -57,6 +84,16 @@
       </version>
     </reapack>
     <reapack name="MIDI-round-robin-midi_channelize.jsfx" type="effect" desc="Juan_R MIDI Round Robin Channelize Notes">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 MIDI Round Robin Channelize Notes (Juan_R)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Sends each note in a sequence to a different channel, in a round robin fashion. Produces timbral alternance patterns. Suggested by valankar https://forum.cockos.com/showpost.php?p=2581890&postcount=13\par}
+}
+]]></description>
+      </metadata>
       <version name="1.02" author="Juan_R" time="2022-08-08T15:08:45Z">
         <changelog><![CDATA[1.0   initial release
 1.01  additional check for duplicate incoming notes (thanks ashcat_lt)
@@ -65,6 +102,16 @@
       </version>
     </reapack>
     <reapack name="MIDI-round-robin-midi_transpose.jsfx" type="effect" desc="Juan_R MIDI Round Robin Transpose Notes">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 MIDI Round Robin Transpose Notes (Juan_R)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Transposes each note in a sequence by different amounts, in a round robin fashion. Produces uncommon, sometimes beautiful, arpeggio patterns. Inspired by this video: 06:29 RETUNED ROUND ROBIN https://www.youtube.com/watch?v=KPcAUHvnQi4&t=389s\par}
+}
+]]></description>
+      </metadata>
       <version name="1.01" author="Juan_R" time="2022-08-08T15:08:45Z">
         <changelog><![CDATA[1.0   initial release
 1.01  typos and cosmetics: code and comments, renamed adding Juan_R]]></changelog>
