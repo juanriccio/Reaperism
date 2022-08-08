@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="c13cec7cc718542e661bb1e48355163c7f377f86">
+<index version="1" name="Juan_R's Reaperism" commit="84858ac7f773eb27fdc8a2a89338c2d547a70672">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <version name="0.04" author="Juan_R" time="2022-08-06T03:42:33Z">
@@ -8,16 +8,6 @@
 0.03a  added usage notes in the about: section
 0.04   renamed adding Juan_R]]></changelog>
         <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-floating-split.jsfx</source>
-      </version>
-    </reapack>
-    <reapack name="Midi-Fret-and-pick.jsfx" type="effect" desc="Juan_R MIDI Fret and pick">
-      <version name="1.04" author="Juan_R" time="2022-08-05T18:27:16Z">
-        <changelog><![CDATA[1.00  initial release
-1.01  clean code, add idle option: mixed recycle+octave
-1.02  improved "about" docs
-1.03  added options to make fretting notes play immediately
-1.04  renamed adding Juan_R]]></changelog>
-        <source>https://github.com/juanriccio/Reaperism/raw/40b4a73fe3c20232c13f87a20f8a1e9c317cd820/MIDI/Midi-Fret-and-pick.jsfx</source>
       </version>
     </reapack>
     <reapack name="MIDI-Fret-and-pick.jsfx" type="effect" desc="Juan_R MIDI Fret and pick">
