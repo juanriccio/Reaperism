@@ -8,11 +8,11 @@ changelog:
   1.02  some code refactoring
 about:
 # MIDI Round Robin Channelize Notes (Juan_R)
-
-Sends each note in a sequence to a different channel, in a round robin fashion.
-Produces timbral alternance patterns.
-Suggested by valankar
-https://forum.cockos.com/showpost.php?p=2581890&postcount=13
+  
+  Sends each note in a sequence to a different channel, in a round robin fashion.
+  Produces timbral alternance patterns.
+  Suggested by valankar
+  https://forum.cockos.com/showpost.php?p=2581890&postcount=13
 
 slider1:0<0,16,1> Midi Channel to listen to (0=All)
 slider2:LK=0<0,127,1>Lowest Key (MIDI Note #)

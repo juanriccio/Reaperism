@@ -7,12 +7,12 @@ changelog:
   1.01  typos and cosmetics: code and comments, renamed adding Juan_R
 about:
 # MIDI Round Robin Transpose Notes (Juan_R)
-
-Transposes each note in a sequence by different amounts, in a round robin fashion.
-Produces uncommon, sometimes beautiful, arpeggio patterns.
-Inspired by this video:
-06:29 RETUNED ROUND ROBIN
-https://www.youtube.com/watch?v=KPcAUHvnQi4&t=389s
+  
+  Transposes each note in a sequence by different amounts, in a round robin fashion.
+  Produces uncommon, sometimes beautiful, arpeggio patterns.
+  Inspired by this video:
+  06:29 RETUNED ROUND ROBIN
+  https://www.youtube.com/watch?v=KPcAUHvnQi4&t=389s
 
 slider1:0<0,16,1> Midi Channel to listen to (0=All)
 slider2:LK=0<0,127,1>Lowest Key (MIDI Note #)

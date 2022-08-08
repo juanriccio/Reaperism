@@ -8,30 +8,30 @@ changelog:
   0.04   renamed adding Juan_R
 about:
 # MIDI Floating Split (Juan_R)
+  
+  Move the splitpoint along, tracking both hands.
+  
+  Usage: Insert MIDI Floating Split on *source* track.
+  Create two *receiving* tracks: one for the left hand, one for the right.
+  Insert your favorite VSTis on the receiving tracks.
+  Set up two MIDI sends from *source*:
+  send LH-channel to the "Left Hand" receiving track,
+  send RH-channel to "Right Hand" receiving track.
+  
+  This is alpha.
+  No hurry to actually see it committed before it goes out of alpha.
+  
+  Hoping to improve it.
+  More sophisticated heuristics anyone?
+  The plug's collecting some data that isn't used yet.
+  
+  I'm submitting this as the snapshot of a working version:
+  Something to get back to if experiments go astray.
+  Todo - Manage one hand left alone corner case more gracefully.
 
-Move the splitpoint along, tracking both hands.
-
-Usage: Insert MIDI Floating Split on *source* track.
-Create two *receiving* tracks: one for the left hand, one for the right.
-Insert your favorite VSTis on the receiving tracks.
-Set up two MIDI sends from *source*:
-send LH-channel to the "Left Hand" receiving track,
-send RH-channel to "Right Hand" receiving track.
-
-This is alpha.
-No hurry to actually see it committed before it goes out of alpha.
-
-Hoping to improve it.
-More sophisticated heuristics anyone?
-The plug's collecting some data that isn't used yet.
-
-I'm submitting this as the snapshot of a working version:
-Something to get back to if experiments go astray.
-Todo - Manage one hand left alone corner case more gracefully.
-
-Presets would be helpful.
-Switching presets = change to a slightly different FA.
-Some automated switching? Expose switching parameters?
+  Presets would be helpful.
+  Switching presets = change to a slightly different FA.
+  Some automated switching? Expose switching parameters?
 
 
 // No audio input/output: this is a MIDI-only FX. Let Reaper know that.
