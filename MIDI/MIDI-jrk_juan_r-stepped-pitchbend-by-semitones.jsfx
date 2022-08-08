@@ -1,9 +1,11 @@
 desc:JRK/Juan_R bend by semitones
-version: 1.02
+author: jrk & Juan_R
+version: 1.03
 changelog:
 	1.00  initial release
 	1.01  removed unneeded channel variable
 	1.02  added about: documentation
+	1.03  added authors
 about:
   # Bend by semitones (JRK/Juan_R)
 
@@ -12,6 +14,7 @@ about:
   The Range slider should reflect the synth's Pitch Bend Range parameter,
   unless you know what you're doing (or don't, but just want some fun).
 
+// pure MIDI, no audio in/out. Let Reaper know.
 in_pin:none;
 out_pin:none;
 
