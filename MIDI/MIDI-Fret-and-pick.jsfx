@@ -1,12 +1,12 @@
-desc: Juan_R MIDI Fret and pick
+desc: Juan_R MIDI Fret and Pick
 author: Juan_R
 version: 1.04
 changelog:
   1.00  initial release
   1.01  clean code, add idle option: mixed recycle+octave
-  1.02  improved "about" docs
+  1.02  improved "about:" docs
   1.03  added options to make fretting notes play immediately
-  1.04  renamed adding Juan_R
+  1.04  renamed adding Juan_R, slight edit to about: docs
 about:
   # MIDI Fret and pick (Juan_R)
   
@@ -14,6 +14,7 @@ about:
   The fretting range and the picking range.
   Keys in the fretting range produce no note by themselves.
   Keys in the picking range trigger the fretting notes, one by one, in their respective low-high order.
+    
   Triggering may happen for all picking keys, only white keys, or only black keys.
   Keys in the picking range that would go beyond the highest fretted note ("idle"):
   option to discard, recycle through the same fretted notes, recycle at ascending octaves, or mixed recycle+octaves.
