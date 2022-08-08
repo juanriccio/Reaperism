@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="59b65ba2b14b2fe8257ef25e6e67de3fce399ab2">
+<index version="1" name="Juan_R's Reaperism" commit="4faf314326ad7f55104c0b63c13945b561b57a30">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <version name="0.04" author="Juan_R" time="2022-08-06T03:42:33Z">
@@ -36,6 +36,13 @@
 1.01  removed unneeded channel variable
 1.02  added about: documentation]]></changelog>
         <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-jrk_juan_r-stepped-pitchbend-by-semitones.jsfx</source>
+      </version>
+      <version name="1.03" author="jrk &amp; Juan_R" time="2022-08-08T00:51:51Z">
+        <changelog><![CDATA[1.00  initial release
+1.01  removed unneeded channel variable
+1.02  added about: documentation
+1.03  added authors]]></changelog>
+        <source>https://github.com/juanriccio/Reaperism/raw/4faf314326ad7f55104c0b63c13945b561b57a30/MIDI/MIDI-jrk_juan_r-stepped-pitchbend-by-semitones.jsfx</source>
       </version>
     </reapack>
     <reapack name="MIDI-mirror-invert-keyboard.jsfx" type="effect" desc="Juan_R Keyboard Mirror/Invert">
