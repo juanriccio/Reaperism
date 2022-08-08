@@ -33,7 +33,6 @@ about:
   Switching presets = change to a slightly different FA.
   Some automated switching? Expose switching parameters?
 
-
 // No audio input/output: this is a MIDI-only FX. Let Reaper know that.
 in_pin:none
 out_pin:none
