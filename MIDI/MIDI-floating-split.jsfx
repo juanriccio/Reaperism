@@ -7,7 +7,7 @@ changelog:
   0.03a  added usage notes in the about: section
   0.04   renamed adding Juan_R
 about:
-# MIDI Floating Split (Juan_R)
+  # MIDI Floating Split (Juan_R)
   
   Move the splitpoint along, tracking both hands.
   

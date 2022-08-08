@@ -8,7 +8,7 @@ changelog:
   1.03  added options to make fretting notes play immediately
   1.04  renamed adding Juan_R
 about:
-# MIDI Fret and pick (Juan_R)
+  # MIDI Fret and pick (Juan_R)
   
   Create two ranges on the keyboard:
   The fretting range and the picking range.

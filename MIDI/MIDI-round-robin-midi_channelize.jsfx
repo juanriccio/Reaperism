@@ -7,7 +7,7 @@ changelog:
   1.01  additional check for duplicate incoming notes (thanks ashcat_lt)
   1.02  some code refactoring
 about:
-# MIDI Round Robin Channelize Notes (Juan_R)
+  # MIDI Round Robin Channelize Notes (Juan_R)
   
   Sends each note in a sequence to a different channel, in a round robin fashion.
   Produces timbral alternance patterns.
