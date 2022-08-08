@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="84858ac7f773eb27fdc8a2a89338c2d547a70672">
+<index version="1" name="Juan_R's Reaperism" commit="e9201300bb3ea606d065789154af864acdd81235">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <version name="0.04" author="Juan_R" time="2022-08-06T03:42:33Z">
@@ -70,11 +70,17 @@
         <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-round-robin-midi_channelize.jsfx</source>
       </version>
     </reapack>
-    <reapack name="MIDI-round-robin-midi_transpose.jsfx" type="effect" desc="Juan_R MIDI Round Robin Transpose Notes">
+    <reapack name="MIDI-round-robin-midi_transpose.jsfx" type="effect" desc="Juan_R MIDI Round Robin Channelize Notes">
       <version name="1.01" author="Juan_R" time="2022-08-06T03:42:33Z">
         <changelog><![CDATA[1.0   initial release
 1.01  typos and cosmetics: code and comments, renamed adding Juan_R]]></changelog>
         <source>https://github.com/juanriccio/Reaperism/raw/acac2cbfcd2bf3ad9e321936c76ecdcfb9a1095f/MIDI/MIDI-round-robin-midi_transpose.jsfx</source>
+      </version>
+      <version name="1.02" author="Juan_R" time="2022-08-08T12:42:05Z">
+        <changelog><![CDATA[1.0   initial release
+1.01  additional check for duplicate incoming notes (thanks ashcat_lt)
+1.02  some code refactoring]]></changelog>
+        <source>https://github.com/juanriccio/Reaperism/raw/e9201300bb3ea606d065789154af864acdd81235/MIDI/MIDI-round-robin-midi_transpose.jsfx</source>
       </version>
     </reapack>
   </category>
