@@ -153,7 +153,7 @@
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Juan_R's Reaperism\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 A repository of scripts, effects and other bits for Reaper, the DAW.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This repository is Reapack compatible https://reapack.com/\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 This repository is Reapack compatible (thanks for the template, and the autoindex, cfillion!) https://reapack.com/\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 To add it into your Reapack, do "Import repositories..." and paste this link: https://raw.githubusercontent.com/juanriccio/Reaperism/master/index.xml\par}
 }
 ]]></description>
