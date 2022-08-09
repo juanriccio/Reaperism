@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="791629c7fd8dddd38df290c0cbd2d82be5a5d409">
+<index version="1" name="Juan_R's Reaperism" commit="a456b1a9919667b3008d3eac9b89397d554f1a7e">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -33,6 +33,15 @@
 0.04a  renamed adding Juan_R
 0.05a  more "about:" docs, link to thread for discussion]]></changelog>
         <source>https://github.com/juanriccio/Reaperism/raw/791629c7fd8dddd38df290c0cbd2d82be5a5d409/MIDI/MIDI-floating-split.jsfx</source>
+      </version>
+      <version name="0.06a" author="Juan_R" time="2022-08-09T19:41:51Z">
+        <changelog><![CDATA[0.01a  initial release
+0.02a  it works but still needs some knowing it.
+0.03a  added usage notes in the about: section
+0.04a  renamed adding Juan_R
+0.05a  more "about:" docs, link to thread for discussion
+0.06a  check hand spans to switch hand quickly]]></changelog>
+        <source>https://github.com/juanriccio/Reaperism/raw/a456b1a9919667b3008d3eac9b89397d554f1a7e/MIDI/MIDI-floating-split.jsfx</source>
       </version>
     </reapack>
     <reapack name="MIDI-Fret-and-pick.jsfx" type="effect" desc="Juan_R MIDI Fret and Pick">
