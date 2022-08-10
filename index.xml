@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="a456b1a9919667b3008d3eac9b89397d554f1a7e">
+<index version="1" name="Juan_R's Reaperism" commit="2d5d9c260d6f50d3786a630f2c0918b96f16dd63">
   <category name="MIDI">
+    <reapack name="MIDI-dummy.jsfx" type="effect" desc="Juan_R MIDI Dummy Test">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 MIDI Dummy Test (Juan_R)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Does nothing but test ReaPack\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Juan_R" time="2022-08-10T14:27:06Z">
+        <changelog><![CDATA[1.0   initial release]]></changelog>
+        <source>https://github.com/juanriccio/Reaperism/raw/2d5d9c260d6f50d3786a630f2c0918b96f16dd63/MIDI/MIDI-dummy.jsfx</source>
+      </version>
+    </reapack>
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
