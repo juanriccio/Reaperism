@@ -1,0 +1,15 @@
+desc:Juan_R MIDI Dummy Test
+tags: MIDI processing
+author: Juan_R
+version: 1.0
+changelog:
+  1.0   initial release
+about:
+  # MIDI Dummy Test (Juan_R)
+  Does nothing but test ReaPack
+
+// MIDI-only FX should always have these lines.
+in_pin:none
+out_pin:none
+
+1;
