@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="63c5d35cdc29e852a3930fa93bccc80bea659991">
+<index version="1" name="Juan_R's Reaperism" commit="64faa68c9769868561a1e624d265002b250c6387">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -175,6 +175,15 @@
       </version>
     </reapack>
     <reapack name="juan_r - Set region at PLAY cursor to time selection.lua" type="script" desc="Set region at PLAY cursor to time selection">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 modified by juan_r to get PLAY position rather than edit cursor\par}
+}
+]]></description>
+      </metadata>
       <version name="1.0.0" author="Thonex, modified by juan_r 2021.02.12 to get PLAY position rather than edit cursor" time="2022-09-16T13:28:38Z">
         <changelog><![CDATA[Initial Release]]></changelog>
         <source main="main">https://github.com/juanriccio/Reaperism/raw/2f7d261af306439437de482b3f590290215765d6/ReaScripts/juan_r%20-%20Set%20region%20at%20PLAY%20cursor%20to%20time%20selection.lua</source>
@@ -185,6 +194,15 @@
       </version>
     </reapack>
     <reapack name="juan_r - Set time selection to region at PLAY cursor.lua" type="script" desc="Set time selection to region at PLAY cursor">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 modified by juan_r to get PLAY position rather than edit cursor\par}
+}
+]]></description>
+      </metadata>
       <version name="1.0.0" author="Thonex, modified by juan_r 2021.02.12 to get PLAY position rather than edit cursor" time="2022-09-16T13:29:50Z">
         <changelog><![CDATA[Initial Release]]></changelog>
         <source main="main">https://github.com/juanriccio/Reaperism/raw/dcf6a17c33b87d1d9cb34d8759337e96e950a6e3/ReaScripts/juan_r%20-%20Set%20time%20selection%20to%20region%20at%20PLAY%20cursor.lua</source>
