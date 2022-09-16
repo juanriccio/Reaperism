@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="c92aaf019830418346f42dcd86e96db0d0d05132">
+<index version="1" name="Juan_R's Reaperism" commit="63c5d35cdc29e852a3930fa93bccc80bea659991">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -188,6 +188,10 @@
       <version name="1.0.0" author="Thonex, modified by juan_r 2021.02.12 to get PLAY position rather than edit cursor" time="2022-09-16T13:29:50Z">
         <changelog><![CDATA[Initial Release]]></changelog>
         <source main="main">https://github.com/juanriccio/Reaperism/raw/dcf6a17c33b87d1d9cb34d8759337e96e950a6e3/ReaScripts/juan_r%20-%20Set%20time%20selection%20to%20region%20at%20PLAY%20cursor.lua</source>
+      </version>
+      <version name="1.0.1" author="Thonex-Juan_R" time="2022-09-16T18:41:21Z">
+        <changelog><![CDATA[Added @ tags in the header]]></changelog>
+        <source main="main">https://github.com/juanriccio/Reaperism/raw/63c5d35cdc29e852a3930fa93bccc80bea659991/ReaScripts/juan_r%20-%20Set%20time%20selection%20to%20region%20at%20PLAY%20cursor.lua</source>
       </version>
     </reapack>
   </category>
