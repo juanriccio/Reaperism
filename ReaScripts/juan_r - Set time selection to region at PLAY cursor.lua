@@ -8,8 +8,6 @@
   @Action_name Set time selection to region at PLAY cursor
 ]]--
 
-
-
 function Main()
   
   Cur_Pos =  reaper.GetPlayPosition()                                                             
