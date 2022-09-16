@@ -1,10 +1,10 @@
 --[[
-  Description: Set region at PLAY cursor to time selection
-    modified by juan_r to get PLAY position rather than edit cursor
-  Version: 1.0.0
+  @description Set region at PLAY cursor to time selection
+  @info  modified by juan_r to get PLAY position rather than edit cursor
+  Version: 1.0.1
   Author: Thonex/Juan_R
   Changelog:
-    Initial Release
+    Added @ tags in the header
 ]]--
 
 function Main()
