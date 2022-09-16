@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="b128fcd57c046ff90f10a3f2aea6a782e9e2cb67">
+<index version="1" name="Juan_R's Reaperism" commit="c92aaf019830418346f42dcd86e96db0d0d05132">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -157,14 +157,31 @@
   </category>
   <category name="ReaScripts">
     <reapack name="juan_r - Rename and renumber selected tracks name by name.lua" type="script" desc="Rename and renumber selected tracks, name by name">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Rename selected tracks by increasing their final number (if they have one), or adding a number, starting from 1 (if they don't)\par}
+}
+]]></description>
+      </metadata>
       <version name="1.0.0" author="Juan_r" time="2022-09-16T13:54:39Z">
         <source main="main">https://github.com/juanriccio/Reaperism/raw/b128fcd57c046ff90f10a3f2aea6a782e9e2cb67/ReaScripts/juan_r%20-%20Rename%20and%20renumber%20selected%20tracks%20name%20by%20name.lua</source>
+      </version>
+      <version name="1.0.1" author="Juan_R" time="2022-09-16T18:21:10Z">
+        <changelog><![CDATA[Added @about section. This will hopefully work.]]></changelog>
+        <source main="main">https://github.com/juanriccio/Reaperism/raw/b18322ce41e4f1475fbb770a7d988630153beb96/ReaScripts/juan_r%20-%20Rename%20and%20renumber%20selected%20tracks%20name%20by%20name.lua</source>
       </version>
     </reapack>
     <reapack name="juan_r - Set region at PLAY cursor to time selection.lua" type="script" desc="Set region at PLAY cursor to time selection">
       <version name="1.0.0" author="Thonex, modified by juan_r 2021.02.12 to get PLAY position rather than edit cursor" time="2022-09-16T13:28:38Z">
         <changelog><![CDATA[Initial Release]]></changelog>
         <source main="main">https://github.com/juanriccio/Reaperism/raw/2f7d261af306439437de482b3f590290215765d6/ReaScripts/juan_r%20-%20Set%20region%20at%20PLAY%20cursor%20to%20time%20selection.lua</source>
+      </version>
+      <version name="1.0.1" author="Thonex/Juan_R" time="2022-09-16T18:22:36Z">
+        <changelog><![CDATA[Added @ tags in the header]]></changelog>
+        <source main="main">https://github.com/juanriccio/Reaperism/raw/70fca2b66f3b5549a75a943908ff482bb9d88518/ReaScripts/juan_r%20-%20Set%20region%20at%20PLAY%20cursor%20to%20time%20selection.lua</source>
       </version>
     </reapack>
     <reapack name="juan_r - Set time selection to region at PLAY cursor.lua" type="script" desc="Set time selection to region at PLAY cursor">
