@@ -1,11 +1,11 @@
 --[[
-  Description: Set time selection to region at PLAY cursor
-    modified by juan_r to get PLAY position rather than edit cursor
-  Version: 1.0.0
-  Author: Thonex-Juan_R
-  Changelog:
-      Initial Release
-  Action_name: Set time selection to region at PLAY cursor
+  @description Set time selection to region at PLAY cursor
+  @info  modified by juan_r to get PLAY position rather than edit cursor
+  @version 1.0.0
+  @author Thonex-Juan_R
+  @changelog
+    Added @ tags in the header
+  @Action_name Set time selection to region at PLAY cursor
 ]]--
 
 
