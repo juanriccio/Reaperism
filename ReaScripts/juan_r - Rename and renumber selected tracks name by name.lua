@@ -1,12 +1,11 @@
 --[[
   Description: Rename and renumber selected tracks, name by name
+    rename selected tracks by increasing their final number (if they have one)
+    or adding a number, starting from 1 (if they don't)
   Version: 1.0.0
   Author: Juan_r
   Date: 2020.10.14
   Action_Name: "Rename and renumber selected tracks, name by name"
-
-  rename selected tracks by increasing their final number (if they have one)
-  or adding a number, starting from 1 (if they don't)
 ]]--
 
 Action_Name = "Rename and renumber selected tracks, name by name"
