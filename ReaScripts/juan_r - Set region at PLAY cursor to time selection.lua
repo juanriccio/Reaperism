@@ -1,9 +1,9 @@
 --[[
   @description Set region at PLAY cursor to time selection
   @info  modified by juan_r to get PLAY position rather than edit cursor
-  Version: 1.0.1
-  Author: Thonex/Juan_R
-  Changelog:
+  @version 1.0.1
+  @author Thonex/Juan_R
+  @changelog
     Added @ tags in the header
 ]]--
 
