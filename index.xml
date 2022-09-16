@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="dcf6a17c33b87d1d9cb34d8759337e96e950a6e3">
+<index version="1" name="Juan_R's Reaperism" commit="b128fcd57c046ff90f10a3f2aea6a782e9e2cb67">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -156,6 +156,11 @@
     </reapack>
   </category>
   <category name="ReaScripts">
+    <reapack name="juan_r - Rename and renumber selected tracks name by name.lua" type="script" desc="Rename and renumber selected tracks, name by name">
+      <version name="1.0.0" author="Juan_r" time="2022-09-16T13:54:39Z">
+        <source main="main">https://github.com/juanriccio/Reaperism/raw/b128fcd57c046ff90f10a3f2aea6a782e9e2cb67/ReaScripts/juan_r%20-%20Rename%20and%20renumber%20selected%20tracks%20name%20by%20name.lua</source>
+      </version>
+    </reapack>
     <reapack name="juan_r - Set region at PLAY cursor to time selection.lua" type="script" desc="Set region at PLAY cursor to time selection">
       <version name="1.0.0" author="Thonex, modified by juan_r 2021.02.12 to get PLAY position rather than edit cursor" time="2022-09-16T13:28:38Z">
         <changelog><![CDATA[Initial Release]]></changelog>
