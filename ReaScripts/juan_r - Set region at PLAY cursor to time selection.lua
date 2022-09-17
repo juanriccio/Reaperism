@@ -1,7 +1,7 @@
 --[[
   @description Set region at PLAY cursor to time selection
   @about Modified by Juan_R to get PLAY position rather than edit cursor
-  @version 1.0.1
+  @version 1.0.2
   @author Thonex & Juan_R
   @changelog
     Added @tags in the header
