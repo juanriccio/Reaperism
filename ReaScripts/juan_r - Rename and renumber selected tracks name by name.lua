@@ -1,12 +1,14 @@
 --[[
   @description Rename and renumber selected tracks, name by name
-  @about Rename selected tracks by increasing their final number (if they have one),
+  @about
+    #  Rename selected tracks by increasing their final number  
+    Rename selected tracks by increasing their final number (if they have one),
     or adding a number, starting from 1 (if they don't)
-  @version 1.0.1
-  @changelog Added @about section. This will hopefully work.
+  @version 1.0.2
+  @changelog Rewrote some @tags
   @author Juan_R
-  @Date: 2022.09.16
-  @action_name "Rename and renumber selected tracks, name by name"
+  @date 2022.09.16
+  @action_name Rename and renumber selected tracks, name by name
 ]]--
 
 Action_Name = "Rename and renumber selected tracks, name by name"
