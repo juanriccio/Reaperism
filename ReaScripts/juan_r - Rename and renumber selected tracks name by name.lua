@@ -2,12 +2,15 @@
   @description Rename and renumber selected tracks, name by name
   @about
     #  Rename selected tracks by increasing their final number  
-    Rename selected tracks by increasing their final number (if they have one),
-    or adding a number, starting from 1 (if they don't)
-  @version 1.0.2
-  @changelog Rewrote some @tags
+    Rename selected tracks individually
+    by increasing their final number (if they have one),
+    or adding a number, starting from 1 (if they don't).
+    Useful after duplicating tracks for further recording
+    so each new track gets a different name.
+  @version 1.0.3
+  @changelog Improved @about tag
   @author Juan_R
-  @date 2022.09.16
+  @date 2022.11.14
   @action_name Rename and renumber selected tracks, name by name
 ]]--
 
