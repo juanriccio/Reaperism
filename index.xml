@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="cc6c40cb9c96eb6c3358c2ae581481ae1612ad1f">
+<index version="1" name="Juan_R's Reaperism" commit="b72f546c2ab963934718a59ff14a29d8fa5daf43">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -163,7 +163,7 @@
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Rename selected tracks by increasing their final number\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Rename selected tracks by increasing their final number (if they have one), or adding a number, starting from 1 (if they don't)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Rename selected tracks individually by increasing their final number (if they have one), or adding a number, starting from 1 (if they don't). Useful after duplicating tracks for further recording so each new track gets a different name.\par}
 }
 ]]></description>
       </metadata>
@@ -177,6 +177,10 @@
       <version name="1.0.2" author="Juan_R" time="2022-09-17T12:40:08Z">
         <changelog><![CDATA[Rewrote some @tags]]></changelog>
         <source main="main">https://github.com/juanriccio/Reaperism/raw/40b5ca23d0de03fee904b59deafbf274fd8f9c91/ReaScripts/juan_r%20-%20Rename%20and%20renumber%20selected%20tracks%20name%20by%20name.lua</source>
+      </version>
+      <version name="1.0.3" author="Juan_R" time="2022-11-14T15:11:04Z">
+        <changelog><![CDATA[Improved @about tag]]></changelog>
+        <source main="main">https://github.com/juanriccio/Reaperism/raw/b72f546c2ab963934718a59ff14a29d8fa5daf43/ReaScripts/juan_r%20-%20Rename%20and%20renumber%20selected%20tracks%20name%20by%20name.lua</source>
       </version>
     </reapack>
     <reapack name="juan_r - Set region at PLAY cursor to time selection.lua" type="script" desc="Set region at PLAY cursor to time selection">
