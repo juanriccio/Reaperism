@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="b72f546c2ab963934718a59ff14a29d8fa5daf43">
+<index version="1" name="Juan_R's Reaperism" commit="05da3464a3fd5be925a1ce757a6f31f7451dbd36">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -227,6 +227,22 @@
       <version name="1.0.2" author="Thonex &amp; Juan_R" time="2022-09-17T15:27:31Z">
         <changelog><![CDATA[Added @tags in the header]]></changelog>
         <source main="main">https://github.com/juanriccio/Reaperism/raw/cc6c40cb9c96eb6c3358c2ae581481ae1612ad1f/ReaScripts/juan_r%20-%20Set%20time%20selection%20to%20region%20at%20PLAY%20cursor.lua</source>
+      </version>
+    </reapack>
+    <reapack name="juan_r - Toggle horizontal zoom.lua" type="script" desc="Toggle horizontal zoom">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 juan_r - Toggle horizontal zoom\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Toggle between two pre-set horizontal zoom levels If center of zoom\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="Juan_R" time="2023-01-24T20:37:43Z">
+        <changelog><![CDATA[Initial version]]></changelog>
+        <source main="main">https://github.com/juanriccio/Reaperism/raw/05da3464a3fd5be925a1ce757a6f31f7451dbd36/ReaScripts/juan_r%20-%20Toggle%20horizontal%20zoom.lua</source>
       </version>
     </reapack>
   </category>
