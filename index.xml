@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="05da3464a3fd5be925a1ce757a6f31f7451dbd36">
+<index version="1" name="Juan_R's Reaperism" commit="f7c21096a3fdba661fe83d34f1b620373eeb2acb">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -236,13 +236,13 @@
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 juan_r - Toggle horizontal zoom\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Toggle between two pre-set horizontal zoom levels If center of zoom\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Toggle between two pre-set horizontal zoom levels If zoom_center is set to mouse, the action should be assigned to a keyboard shortcut\par}
 }
 ]]></description>
       </metadata>
-      <version name="1.0" author="Juan_R" time="2023-01-24T20:37:43Z">
+      <version name="1.0" author="Juan_R" time="2023-01-24T20:46:07Z">
         <changelog><![CDATA[Initial version]]></changelog>
-        <source main="main">https://github.com/juanriccio/Reaperism/raw/05da3464a3fd5be925a1ce757a6f31f7451dbd36/ReaScripts/juan_r%20-%20Toggle%20horizontal%20zoom.lua</source>
+        <source main="main">https://github.com/juanriccio/Reaperism/raw/f7c21096a3fdba661fe83d34f1b620373eeb2acb/ReaScripts/juan_r%20-%20Toggle%20horizontal%20zoom.lua</source>
       </version>
     </reapack>
   </category>
