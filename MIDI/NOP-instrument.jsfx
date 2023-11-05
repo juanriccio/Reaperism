@@ -1,0 +1,13 @@
+desc:Juan_R NOP No operation (instrument)
+tags: instrument
+author: Juan_R
+version: 1.00
+changelog:
+  1.0   initial release
+about:
+  # NOP (null instrument) (Juan_R)
+  
+  Does nothing at all.
+
+in_pin:none
+out_pin:none
