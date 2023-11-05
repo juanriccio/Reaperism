@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Juan_R's Reaperism" commit="f7c21096a3fdba661fe83d34f1b620373eeb2acb">
+<index version="1" name="Juan_R's Reaperism" commit="c527e8af8e44970753af0dce068ba786ea601327">
   <category name="MIDI">
     <reapack name="MIDI-floating-split.jsfx" type="effect" desc="Juan_R MIDI Floating Split">
       <metadata>
@@ -152,6 +152,22 @@
 1.01  typos and cosmetics: code and comments, renamed adding Juan_R
 1.02  slight edit to the about: docs]]></changelog>
         <source>https://github.com/juanriccio/Reaperism/raw/5b34ba48982105b75460d6b3312dd46e874b7bd5/MIDI/MIDI-round-robin-midi_transpose.jsfx</source>
+      </version>
+    </reapack>
+    <reapack name="NOP-instrument.jsfx" type="effect" desc="Juan_R NOP No operation (instrument)">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 NOP (null instrument) (Juan_R)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Does nothing at all.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.00" author="Juan_R" time="2023-11-05T17:12:02Z">
+        <changelog><![CDATA[1.0   initial release]]></changelog>
+        <source>https://github.com/juanriccio/Reaperism/raw/c527e8af8e44970753af0dce068ba786ea601327/MIDI/NOP-instrument.jsfx</source>
       </version>
     </reapack>
   </category>
